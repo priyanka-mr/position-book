@@ -1,0 +1,9 @@
+logging:
+  level:
+    root: INFO
+    com.positionbook: DEBUG
+  file:
+    name: logs/application.log
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} - %logger{36} - %msg%n"
+    file: "%d{yyyy-MM-dd HH:mm:ss} - %logger{36} - %msg%n"
