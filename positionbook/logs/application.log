@@ -216,3 +216,273 @@ Consider defining a bean of type 'com.positionbook.repository.PositionBookReposi
 2025-02-25 14:34:55 - c.p.c.PositionBookController - Processed 1 trade events
 2025-02-25 14:34:58 - c.p.c.PositionBookController - Fetching all positions
 2025-02-25 14:34:58 - c.p.c.PositionBookController - Returning 2 positions
+2025-02-25 14:37:04 - c.p.PositionBookControllerTest - Starting PositionBookControllerTest using Java 21 with PID 38669 (started by priyankamr in /Users/priyankamr/Desktop/JPMC_Assessment/position-book/positionbook)
+2025-02-25 14:37:04 - c.p.PositionBookControllerTest - Running with Spring Boot v3.3.9, Spring v6.1.17
+2025-02-25 14:37:04 - c.p.PositionBookControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-02-25 14:37:04 - o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-02-25 14:37:04 - o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-02-25 14:37:04 - o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2025-02-25 14:37:04 - c.p.PositionBookControllerTest - Started PositionBookControllerTest in 1.072 seconds (process running for 1.459)
+2025-02-25 14:37:05 - c.p.c.PositionBookController - Request received for processing a trade event
+2025-02-25 14:37:05 - c.p.c.PositionBookController - Processed 2 trade events
+2025-02-25 14:37:05 - c.p.c.PositionBookController - Received request to clear all positions
+2025-02-25 14:37:05 - c.p.c.PositionBookController - Cleared all positions successfully
+2025-02-25 14:37:05 - c.p.c.PositionBookController - Fetching all positions
+2025-02-25 14:37:05 - c.p.c.PositionBookController - Returning 1 positions
+2025-02-25 14:37:05 - o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.positionbook.PositionBookServiceTest]: PositionBookServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-02-25 14:37:05 - o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.positionbook.PositionBookApplication for test class com.positionbook.PositionBookServiceTest
+2025-02-25 14:37:05 - o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running
+2025-02-25 14:37:05 - c.p.PositionBookServiceTest - Starting PositionBookServiceTest using Java 21 with PID 38669 (started by priyankamr in /Users/priyankamr/Desktop/JPMC_Assessment/position-book/positionbook)
+2025-02-25 14:37:05 - c.p.PositionBookServiceTest - Running with Spring Boot v3.3.9, Spring v6.1.17
+2025-02-25 14:37:05 - c.p.PositionBookServiceTest - No active profile set, falling back to 1 default profile: "default"
+2025-02-25 14:37:05 - c.p.PositionBookServiceTest - Started PositionBookServiceTest in 0.207 seconds (process running for 1.786)
+2025-02-25 14:37:05 - o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.positionbook.PositionbookApplicationTests]: PositionbookApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-02-25 14:37:05 - o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.positionbook.PositionBookApplication for test class com.positionbook.PositionbookApplicationTests
+2025-02-25 14:38:01 - c.p.PositionBookServiceTest - Starting PositionBookServiceTest using Java 21 with PID 38775 (started by priyankamr in /Users/priyankamr/Desktop/JPMC_Assessment/position-book/positionbook)
+2025-02-25 14:38:01 - c.p.PositionBookServiceTest - Running with Spring Boot v3.3.9, Spring v6.1.17
+2025-02-25 14:38:01 - c.p.PositionBookServiceTest - No active profile set, falling back to 1 default profile: "default"
+2025-02-25 14:38:01 - c.p.PositionBookServiceTest - Started PositionBookServiceTest in 0.682 seconds (process running for 1.195)
+2025-02-25 14:41:58 - c.p.PositionBookServiceTest - Starting PositionBookServiceTest using Java 21 with PID 38956 (started by priyankamr in /Users/priyankamr/Desktop/JPMC_Assessment/position-book/positionbook)
+2025-02-25 14:41:58 - c.p.PositionBookServiceTest - Running with Spring Boot v3.3.9, Spring v6.1.17
+2025-02-25 14:41:58 - c.p.PositionBookServiceTest - No active profile set, falling back to 1 default profile: "default"
+2025-02-25 14:41:59 - c.p.PositionBookServiceTest - Started PositionBookServiceTest in 0.735 seconds (process running for 1.324)
+2025-02-25 14:44:55 - c.p.PositionBookServiceTest - Starting PositionBookServiceTest using Java 21 with PID 39090 (started by priyankamr in /Users/priyankamr/Desktop/JPMC_Assessment/position-book/positionbook)
+2025-02-25 14:44:55 - c.p.PositionBookServiceTest - Running with Spring Boot v3.3.9, Spring v6.1.17
+2025-02-25 14:44:55 - c.p.PositionBookServiceTest - No active profile set, falling back to 1 default profile: "default"
+2025-02-25 14:44:55 - c.p.PositionBookServiceTest - Started PositionBookServiceTest in 0.617 seconds (process running for 1.226)
+2025-02-25 14:46:02 - c.p.PositionBookServiceTest - Starting PositionBookServiceTest using Java 21 with PID 39136 (started by priyankamr in /Users/priyankamr/Desktop/JPMC_Assessment/position-book/positionbook)
+2025-02-25 14:46:02 - c.p.PositionBookServiceTest - Running with Spring Boot v3.3.9, Spring v6.1.17
+2025-02-25 14:46:02 - c.p.PositionBookServiceTest - No active profile set, falling back to 1 default profile: "default"
+2025-02-25 14:46:03 - c.p.PositionBookServiceTest - Started PositionBookServiceTest in 0.61 seconds (process running for 1.108)
+2025-02-25 14:46:30 - c.p.PositionBookServiceTest - Starting PositionBookServiceTest using Java 21 with PID 39161 (started by priyankamr in /Users/priyankamr/Desktop/JPMC_Assessment/position-book/positionbook)
+2025-02-25 14:46:30 - c.p.PositionBookServiceTest - Running with Spring Boot v3.3.9, Spring v6.1.17
+2025-02-25 14:46:30 - c.p.PositionBookServiceTest - No active profile set, falling back to 1 default profile: "default"
+2025-02-25 14:46:30 - c.p.PositionBookServiceTest - Started PositionBookServiceTest in 0.604 seconds (process running for 1.071)
+2025-02-25 14:46:42 - c.p.PositionBookControllerTest - Starting PositionBookControllerTest using Java 21 with PID 39166 (started by priyankamr in /Users/priyankamr/Desktop/JPMC_Assessment/position-book/positionbook)
+2025-02-25 14:46:42 - c.p.PositionBookControllerTest - Running with Spring Boot v3.3.9, Spring v6.1.17
+2025-02-25 14:46:42 - c.p.PositionBookControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-02-25 14:46:43 - o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-02-25 14:46:43 - o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-02-25 14:46:43 - o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2025-02-25 14:46:43 - c.p.PositionBookControllerTest - Started PositionBookControllerTest in 1.025 seconds (process running for 1.531)
+2025-02-25 14:46:43 - c.p.c.PositionBookController - Fetching all positions
+2025-02-25 14:46:43 - c.p.c.PositionBookController - Returning 1 positions
+2025-02-25 14:46:50 - c.p.PositionBookControllerTest - Starting PositionBookControllerTest using Java 21 with PID 39181 (started by priyankamr in /Users/priyankamr/Desktop/JPMC_Assessment/position-book/positionbook)
+2025-02-25 14:46:50 - c.p.PositionBookControllerTest - Running with Spring Boot v3.3.9, Spring v6.1.17
+2025-02-25 14:46:50 - c.p.PositionBookControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-02-25 14:46:50 - o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-02-25 14:46:50 - o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-02-25 14:46:50 - o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2025-02-25 14:46:50 - c.p.PositionBookControllerTest - Started PositionBookControllerTest in 1.022 seconds (process running for 1.483)
+2025-02-25 14:46:51 - c.p.c.PositionBookController - Received request to clear all positions
+2025-02-25 14:46:51 - c.p.c.PositionBookController - Cleared all positions successfully
+2025-02-25 14:50:19 - c.p.PositionBookServiceTest - Starting PositionBookServiceTest using Java 21 with PID 39357 (started by priyankamr in /Users/priyankamr/Desktop/JPMC_Assessment/position-book/positionbook)
+2025-02-25 14:50:19 - c.p.PositionBookServiceTest - Running with Spring Boot v3.3.9, Spring v6.1.17
+2025-02-25 14:50:19 - c.p.PositionBookServiceTest - No active profile set, falling back to 1 default profile: "default"
+2025-02-25 14:50:19 - c.p.PositionBookServiceTest - Started PositionBookServiceTest in 0.626 seconds (process running for 1.096)
+2025-02-25 14:50:20 - c.p.service.PositionBookService - ACC1 SEC1 Position updated with a BUY event 
+2025-02-25 14:50:44 - c.p.PositionBookControllerTest - Starting PositionBookControllerTest using Java 21 with PID 39394 (started by priyankamr in /Users/priyankamr/Desktop/JPMC_Assessment/position-book/positionbook)
+2025-02-25 14:50:44 - c.p.PositionBookControllerTest - Running with Spring Boot v3.3.9, Spring v6.1.17
+2025-02-25 14:50:44 - c.p.PositionBookControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-02-25 14:50:45 - o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-02-25 14:50:45 - o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-02-25 14:50:45 - o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2025-02-25 14:50:45 - c.p.PositionBookControllerTest - Started PositionBookControllerTest in 0.996 seconds (process running for 1.397)
+2025-02-25 14:50:45 - c.p.c.PositionBookController - Request received for processing a trade event
+2025-02-25 14:50:45 - c.p.c.PositionBookController - Processed 2 trade events
+2025-02-25 14:50:45 - c.p.c.PositionBookController - Received request to clear all positions
+2025-02-25 14:50:45 - c.p.c.PositionBookController - Cleared all positions successfully
+2025-02-25 14:50:45 - c.p.c.PositionBookController - Fetching all positions
+2025-02-25 14:50:45 - c.p.c.PositionBookController - Returning 1 positions
+2025-02-25 14:50:45 - o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.positionbook.PositionBookServiceTest]: PositionBookServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-02-25 14:50:45 - o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.positionbook.PositionBookApplication for test class com.positionbook.PositionBookServiceTest
+2025-02-25 14:50:45 - o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running
+2025-02-25 14:50:45 - c.p.PositionBookServiceTest - Starting PositionBookServiceTest using Java 21 with PID 39394 (started by priyankamr in /Users/priyankamr/Desktop/JPMC_Assessment/position-book/positionbook)
+2025-02-25 14:50:45 - c.p.PositionBookServiceTest - Running with Spring Boot v3.3.9, Spring v6.1.17
+2025-02-25 14:50:45 - c.p.PositionBookServiceTest - No active profile set, falling back to 1 default profile: "default"
+2025-02-25 14:50:45 - c.p.PositionBookServiceTest - Started PositionBookServiceTest in 0.218 seconds (process running for 1.74)
+2025-02-25 14:50:45 - c.p.service.PositionBookService - ACC1 SEC1 Position updated with a BUY event 
+2025-02-25 14:50:45 - c.p.service.PositionBookService - ACC1 SEC1 Position updated with a BUY event 
+2025-02-25 14:50:45 - c.p.service.PositionBookService - ACC1 SEC1 Position updated with a SELL event 
+2025-02-25 14:50:45 - c.p.service.PositionBookService - ACC3 SEC3 Position updated with a BUY event 
+2025-02-25 14:50:45 - c.p.service.PositionBookService - ACC3 SEC3 Position updated with a SELL event 
+2025-02-25 14:50:45 - c.p.service.PositionBookService - processing CANCEL event
+2025-02-25 14:50:45 - c.p.service.PositionBookService - ACC2 SEC2 Position updated with a BUY event 
+2025-02-25 14:50:45 - c.p.service.PositionBookService - processing CANCEL event
+2025-02-25 14:50:45 - c.p.service.PositionBookService - ACC4 SECXYZ Position updated with a BUY event 
+2025-02-25 14:50:45 - c.p.service.PositionBookService - ACC4 SEC4 Position updated with a BUY event 
+2025-02-25 14:50:45 - c.p.service.PositionBookService - ACC4 SECXYZ Position updated with a BUY event 
+2025-02-25 14:50:45 - o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.positionbook.PositionbookApplicationTests]: PositionbookApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-02-25 14:50:45 - o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.positionbook.PositionBookApplication for test class com.positionbook.PositionbookApplicationTests
+2025-02-25 14:52:56 - c.p.PositionBookControllerTest - Starting PositionBookControllerTest using Java 21 with PID 39524 (started by priyankamr in /Users/priyankamr/Desktop/JPMC_Assessment/position-book/positionbook)
+2025-02-25 14:52:56 - c.p.PositionBookControllerTest - Running with Spring Boot v3.3.9, Spring v6.1.17
+2025-02-25 14:52:56 - c.p.PositionBookControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-02-25 14:52:57 - o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-02-25 14:52:57 - o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-02-25 14:52:57 - o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2025-02-25 14:52:57 - c.p.PositionBookControllerTest - Started PositionBookControllerTest in 1.011 seconds (process running for 1.411)
+2025-02-25 14:52:57 - c.p.c.PositionBookController - Request received for processing a trade event
+2025-02-25 14:52:57 - c.p.c.PositionBookController - Processed 2 trade events
+2025-02-25 14:52:57 - c.p.c.PositionBookController - Received request to clear all positions
+2025-02-25 14:52:57 - c.p.c.PositionBookController - Cleared all positions successfully
+2025-02-25 14:52:57 - c.p.c.PositionBookController - Fetching all positions
+2025-02-25 14:52:57 - c.p.c.PositionBookController - Returning 1 positions
+2025-02-25 14:52:57 - o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.positionbook.PositionBookServiceTest]: PositionBookServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-02-25 14:52:57 - o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.positionbook.PositionBookApplication for test class com.positionbook.PositionBookServiceTest
+2025-02-25 14:52:57 - o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running
+2025-02-25 14:52:57 - c.p.PositionBookServiceTest - Starting PositionBookServiceTest using Java 21 with PID 39524 (started by priyankamr in /Users/priyankamr/Desktop/JPMC_Assessment/position-book/positionbook)
+2025-02-25 14:52:57 - c.p.PositionBookServiceTest - Running with Spring Boot v3.3.9, Spring v6.1.17
+2025-02-25 14:52:57 - c.p.PositionBookServiceTest - No active profile set, falling back to 1 default profile: "default"
+2025-02-25 14:52:57 - c.p.PositionBookServiceTest - Started PositionBookServiceTest in 0.212 seconds (process running for 1.748)
+2025-02-25 14:52:57 - c.p.service.PositionBookService - ACC1 SEC1 Position updated with a BUY event 
+2025-02-25 14:52:57 - c.p.service.PositionBookService - ACC1 SEC1 Position updated with a BUY event 
+2025-02-25 14:52:57 - c.p.service.PositionBookService - ACC1 SEC1 Position updated with a SELL event 
+2025-02-25 14:52:57 - c.p.service.PositionBookService - ACC3 SEC3 Position updated with a BUY event 
+2025-02-25 14:52:57 - c.p.service.PositionBookService - ACC3 SEC3 Position updated with a SELL event 
+2025-02-25 14:52:57 - c.p.service.PositionBookService - processing CANCEL event
+2025-02-25 14:52:57 - c.p.service.PositionBookService - ACC2 SEC2 Position updated with a BUY event 
+2025-02-25 14:52:57 - c.p.service.PositionBookService - processing CANCEL event
+2025-02-25 14:52:57 - c.p.service.PositionBookService - ACC4 SECXYZ Position updated with a BUY event 
+2025-02-25 14:52:57 - c.p.service.PositionBookService - ACC4 SEC4 Position updated with a BUY event 
+2025-02-25 14:52:57 - c.p.service.PositionBookService - ACC4 SECXYZ Position updated with a BUY event 
+2025-02-25 14:52:57 - o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.positionbook.PositionbookApplicationTests]: PositionbookApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-02-25 14:52:57 - o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.positionbook.PositionBookApplication for test class com.positionbook.PositionbookApplicationTests
+2025-02-25 14:54:45 - c.p.PositionBookControllerTest - Starting PositionBookControllerTest using Java 21 with PID 39655 (started by priyankamr in /Users/priyankamr/Desktop/JPMC_Assessment/position-book/positionbook)
+2025-02-25 14:54:45 - c.p.PositionBookControllerTest - Running with Spring Boot v3.3.9, Spring v6.1.17
+2025-02-25 14:54:45 - c.p.PositionBookControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-02-25 14:54:46 - o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-02-25 14:54:46 - o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-02-25 14:54:46 - o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2025-02-25 14:54:46 - c.p.PositionBookControllerTest - Started PositionBookControllerTest in 1.017 seconds (process running for 1.397)
+2025-02-25 14:54:46 - c.p.c.PositionBookController - Request received for processing a trade event
+2025-02-25 14:54:46 - c.p.c.PositionBookController - Processed 2 trade events
+2025-02-25 14:54:46 - c.p.c.PositionBookController - Received request to clear all positions
+2025-02-25 14:54:46 - c.p.c.PositionBookController - Cleared all positions successfully
+2025-02-25 14:54:46 - c.p.c.PositionBookController - Fetching all positions
+2025-02-25 14:54:46 - c.p.c.PositionBookController - Returning 1 positions
+2025-02-25 14:54:46 - o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.positionbook.PositionBookServiceTest]: PositionBookServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-02-25 14:54:46 - o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.positionbook.PositionBookApplication for test class com.positionbook.PositionBookServiceTest
+2025-02-25 14:54:46 - o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running
+2025-02-25 14:54:46 - c.p.PositionBookServiceTest - Starting PositionBookServiceTest using Java 21 with PID 39655 (started by priyankamr in /Users/priyankamr/Desktop/JPMC_Assessment/position-book/positionbook)
+2025-02-25 14:54:46 - c.p.PositionBookServiceTest - Running with Spring Boot v3.3.9, Spring v6.1.17
+2025-02-25 14:54:46 - c.p.PositionBookServiceTest - No active profile set, falling back to 1 default profile: "default"
+2025-02-25 14:54:46 - c.p.PositionBookServiceTest - Started PositionBookServiceTest in 0.213 seconds (process running for 1.728)
+2025-02-25 14:54:46 - c.p.service.PositionBookService - ACC1 SEC1 Position updated with a BUY event 
+2025-02-25 14:54:46 - c.p.service.PositionBookService - ACC1 SEC1 Position updated with a BUY event 
+2025-02-25 14:54:46 - c.p.service.PositionBookService - ACC1 SEC1 Position updated with a SELL event 
+2025-02-25 14:54:46 - c.p.service.PositionBookService - ACC3 SEC3 Position updated with a BUY event 
+2025-02-25 14:54:46 - c.p.service.PositionBookService - ACC3 SEC3 Position updated with a SELL event 
+2025-02-25 14:54:46 - c.p.service.PositionBookService - processing CANCEL event
+2025-02-25 14:54:46 - c.p.service.PositionBookService - ACC2 SEC2 Position updated with a BUY event 
+2025-02-25 14:54:46 - c.p.service.PositionBookService - processing CANCEL event
+2025-02-25 14:54:46 - c.p.service.PositionBookService - ACC4 SECXYZ Position updated with a BUY event 
+2025-02-25 14:54:46 - c.p.service.PositionBookService - ACC4 SEC4 Position updated with a BUY event 
+2025-02-25 14:54:46 - c.p.service.PositionBookService - ACC4 SECXYZ Position updated with a BUY event 
+2025-02-25 14:54:46 - o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.positionbook.PositionbookApplicationTests]: PositionbookApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-02-25 14:54:46 - o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.positionbook.PositionBookApplication for test class com.positionbook.PositionbookApplicationTests
+2025-02-25 14:57:12 - c.p.PositionBookControllerTest - Starting PositionBookControllerTest using Java 21 with PID 39780 (started by priyankamr in /Users/priyankamr/Desktop/JPMC_Assessment/position-book/positionbook)
+2025-02-25 14:57:12 - c.p.PositionBookControllerTest - Running with Spring Boot v3.3.9, Spring v6.1.17
+2025-02-25 14:57:12 - c.p.PositionBookControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-02-25 14:57:13 - o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-02-25 14:57:13 - o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-02-25 14:57:13 - o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2025-02-25 14:57:13 - c.p.PositionBookControllerTest - Started PositionBookControllerTest in 1.041 seconds (process running for 1.476)
+2025-02-25 14:57:13 - c.p.c.PositionBookController - Request received for processing a trade event
+2025-02-25 14:57:13 - c.p.c.PositionBookController - Processed 2 trade events
+2025-02-25 14:57:13 - c.p.c.PositionBookController - Received request to clear all positions
+2025-02-25 14:57:13 - c.p.c.PositionBookController - Cleared all positions successfully
+2025-02-25 14:57:13 - c.p.c.PositionBookController - Fetching all positions
+2025-02-25 14:57:13 - c.p.c.PositionBookController - Returning 1 positions
+2025-02-25 14:57:13 - o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.positionbook.PositionBookServiceTest]: PositionBookServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-02-25 14:57:13 - o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.positionbook.PositionBookApplication for test class com.positionbook.PositionBookServiceTest
+2025-02-25 14:57:13 - o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running
+2025-02-25 14:57:13 - c.p.PositionBookServiceTest - Starting PositionBookServiceTest using Java 21 with PID 39780 (started by priyankamr in /Users/priyankamr/Desktop/JPMC_Assessment/position-book/positionbook)
+2025-02-25 14:57:13 - c.p.PositionBookServiceTest - Running with Spring Boot v3.3.9, Spring v6.1.17
+2025-02-25 14:57:13 - c.p.PositionBookServiceTest - No active profile set, falling back to 1 default profile: "default"
+2025-02-25 14:57:13 - c.p.PositionBookServiceTest - Started PositionBookServiceTest in 0.218 seconds (process running for 1.816)
+2025-02-25 14:57:13 - c.p.service.PositionBookService - ACC1 SEC1 Position updated with a BUY event 
+2025-02-25 14:57:13 - c.p.service.PositionBookService - ACC1 SEC1 Position updated with a BUY event 
+2025-02-25 14:57:13 - c.p.service.PositionBookService - ACC1 SEC1 Position updated with a SELL event 
+2025-02-25 14:57:13 - c.p.service.PositionBookService - ACC3 SEC3 Position updated with a BUY event 
+2025-02-25 14:57:13 - c.p.service.PositionBookService - ACC3 SEC3 Position updated with a SELL event 
+2025-02-25 14:57:13 - c.p.service.PositionBookService - processing CANCEL event
+2025-02-25 14:57:13 - c.p.service.PositionBookService - ACC2 SEC2 Position updated with a BUY event 
+2025-02-25 14:57:13 - c.p.service.PositionBookService - processing CANCEL event
+2025-02-25 14:57:13 - c.p.service.PositionBookService - ACC4 SECXYZ Position updated with a BUY event 
+2025-02-25 14:57:13 - c.p.service.PositionBookService - ACC4 SEC4 Position updated with a BUY event 
+2025-02-25 14:57:13 - c.p.service.PositionBookService - ACC4 SECXYZ Position updated with a BUY event 
+2025-02-25 14:57:13 - o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.positionbook.PositionbookApplicationTests]: PositionbookApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-02-25 14:57:13 - o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.positionbook.PositionBookApplication for test class com.positionbook.PositionbookApplicationTests
+2025-02-25 14:58:15 - c.p.PositionBookControllerTest - Starting PositionBookControllerTest using Java 21 with PID 39853 (started by priyankamr in /Users/priyankamr/Desktop/JPMC_Assessment/position-book/positionbook)
+2025-02-25 14:58:15 - c.p.PositionBookControllerTest - Running with Spring Boot v3.3.9, Spring v6.1.17
+2025-02-25 14:58:15 - c.p.PositionBookControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-02-25 14:58:16 - o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-02-25 14:58:16 - o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-02-25 14:58:16 - o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2025-02-25 14:58:16 - c.p.PositionBookControllerTest - Started PositionBookControllerTest in 1.041 seconds (process running for 1.435)
+2025-02-25 14:58:16 - c.p.c.PositionBookController - Request received for processing a trade event
+2025-02-25 14:58:16 - c.p.c.PositionBookController - Processed 2 trade events
+2025-02-25 14:58:16 - c.p.c.PositionBookController - Received request to clear all positions
+2025-02-25 14:58:16 - c.p.c.PositionBookController - Cleared all positions successfully
+2025-02-25 14:58:16 - c.p.c.PositionBookController - Fetching all positions
+2025-02-25 14:58:16 - c.p.c.PositionBookController - Returning 1 positions
+2025-02-25 14:58:16 - o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.positionbook.PositionBookServiceTest]: PositionBookServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-02-25 14:58:16 - o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.positionbook.PositionBookApplication for test class com.positionbook.PositionBookServiceTest
+2025-02-25 14:58:16 - o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running
+2025-02-25 14:58:16 - c.p.PositionBookServiceTest - Starting PositionBookServiceTest using Java 21 with PID 39853 (started by priyankamr in /Users/priyankamr/Desktop/JPMC_Assessment/position-book/positionbook)
+2025-02-25 14:58:16 - c.p.PositionBookServiceTest - Running with Spring Boot v3.3.9, Spring v6.1.17
+2025-02-25 14:58:16 - c.p.PositionBookServiceTest - No active profile set, falling back to 1 default profile: "default"
+2025-02-25 14:58:16 - c.p.PositionBookServiceTest - Started PositionBookServiceTest in 0.216 seconds (process running for 1.774)
+2025-02-25 14:58:16 - c.p.service.PositionBookService - ACC1 SEC1 Position updated with a BUY event 
+2025-02-25 14:58:16 - c.p.service.PositionBookService - ACC1 SEC1 Position updated with a BUY event 
+2025-02-25 14:58:16 - c.p.service.PositionBookService - ACC1 SEC1 Position updated with a SELL event 
+2025-02-25 14:58:16 - c.p.service.PositionBookService - ACC3 SEC3 Position updated with a BUY event 
+2025-02-25 14:58:16 - c.p.service.PositionBookService - ACC3 SEC3 Position updated with a SELL event 
+2025-02-25 14:58:16 - c.p.service.PositionBookService - processing CANCEL event
+2025-02-25 14:58:16 - c.p.service.PositionBookService - ACC2 SEC2 Position updated with a BUY event 
+2025-02-25 14:58:16 - c.p.service.PositionBookService - processing CANCEL event
+2025-02-25 14:58:16 - c.p.service.PositionBookService - ACC4 SECXYZ Position updated with a BUY event 
+2025-02-25 14:58:16 - c.p.service.PositionBookService - ACC4 SEC4 Position updated with a BUY event 
+2025-02-25 14:58:16 - c.p.service.PositionBookService - ACC4 SECXYZ Position updated with a BUY event 
+2025-02-25 14:58:16 - o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.positionbook.PositionbookApplicationTests]: PositionbookApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-02-25 14:58:16 - o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.positionbook.PositionBookApplication for test class com.positionbook.PositionbookApplicationTests
+2025-02-25 14:58:32 - c.p.PositionBookControllerTest - Starting PositionBookControllerTest using Java 21 with PID 39883 (started by priyankamr in /Users/priyankamr/Desktop/JPMC_Assessment/position-book/positionbook)
+2025-02-25 14:58:32 - c.p.PositionBookControllerTest - Running with Spring Boot v3.3.9, Spring v6.1.17
+2025-02-25 14:58:32 - c.p.PositionBookControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-02-25 14:58:33 - o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-02-25 14:58:33 - o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-02-25 14:58:33 - o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2025-02-25 14:58:33 - c.p.PositionBookControllerTest - Started PositionBookControllerTest in 1.028 seconds (process running for 1.451)
+2025-02-25 14:58:33 - c.p.c.PositionBookController - Request received for processing a trade event
+2025-02-25 14:58:33 - c.p.c.PositionBookController - Processed 2 trade events
+2025-02-25 14:58:33 - c.p.c.PositionBookController - Received request to clear all positions
+2025-02-25 14:58:33 - c.p.c.PositionBookController - Cleared all positions successfully
+2025-02-25 14:58:33 - c.p.c.PositionBookController - Fetching all positions
+2025-02-25 14:58:33 - c.p.c.PositionBookController - Returning 1 positions
+2025-02-25 14:58:33 - o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.positionbook.PositionBookServiceTest]: PositionBookServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-02-25 14:58:33 - o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.positionbook.PositionBookApplication for test class com.positionbook.PositionBookServiceTest
+2025-02-25 14:58:33 - o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running
+2025-02-25 14:58:33 - c.p.PositionBookServiceTest - Starting PositionBookServiceTest using Java 21 with PID 39883 (started by priyankamr in /Users/priyankamr/Desktop/JPMC_Assessment/position-book/positionbook)
+2025-02-25 14:58:33 - c.p.PositionBookServiceTest - Running with Spring Boot v3.3.9, Spring v6.1.17
+2025-02-25 14:58:33 - c.p.PositionBookServiceTest - No active profile set, falling back to 1 default profile: "default"
+2025-02-25 14:58:34 - c.p.PositionBookServiceTest - Started PositionBookServiceTest in 0.219 seconds (process running for 1.791)
+2025-02-25 14:58:34 - c.p.service.PositionBookService - ACC1 SEC1 Position updated with a BUY event 
+2025-02-25 14:58:34 - c.p.service.PositionBookService - ACC1 SEC1 Position updated with a BUY event 
+2025-02-25 14:58:34 - c.p.service.PositionBookService - ACC1 SEC1 Position updated with a SELL event 
+2025-02-25 14:58:34 - c.p.service.PositionBookService - ACC3 SEC3 Position updated with a BUY event 
+2025-02-25 14:58:34 - c.p.service.PositionBookService - ACC3 SEC3 Position updated with a SELL event 
+2025-02-25 14:58:34 - c.p.service.PositionBookService - processing CANCEL event
+2025-02-25 14:58:34 - c.p.service.PositionBookService - ACC2 SEC2 Position updated with a BUY event 
+2025-02-25 14:58:34 - c.p.service.PositionBookService - processing CANCEL event
+2025-02-25 14:58:34 - c.p.service.PositionBookService - ACC4 SECXYZ Position updated with a BUY event 
+2025-02-25 14:58:34 - c.p.service.PositionBookService - ACC4 SEC4 Position updated with a BUY event 
+2025-02-25 14:58:34 - c.p.service.PositionBookService - ACC4 SECXYZ Position updated with a BUY event 
+2025-02-25 14:58:34 - o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.positionbook.PositionbookApplicationTests]: PositionbookApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-02-25 14:58:34 - o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.positionbook.PositionBookApplication for test class com.positionbook.PositionbookApplicationTests
+2025-02-25 14:58:40 - c.p.PositionBookServiceTest - Starting PositionBookServiceTest using Java 21 with PID 39890 (started by priyankamr in /Users/priyankamr/Desktop/JPMC_Assessment/position-book/positionbook)
+2025-02-25 14:58:40 - c.p.PositionBookServiceTest - Running with Spring Boot v3.3.9, Spring v6.1.17
+2025-02-25 14:58:40 - c.p.PositionBookServiceTest - No active profile set, falling back to 1 default profile: "default"
+2025-02-25 14:58:41 - c.p.PositionBookServiceTest - Started PositionBookServiceTest in 0.584 seconds (process running for 1.018)
+2025-02-25 14:58:41 - c.p.service.PositionBookService - ACC4 SECXYZ Position updated with a BUY event 
+2025-02-25 14:58:41 - c.p.service.PositionBookService - ACC4 SEC4 Position updated with a BUY event 
+2025-02-25 14:58:41 - c.p.service.PositionBookService - ACC4 SECXYZ Position updated with a BUY event 

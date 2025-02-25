@@ -2,6 +2,7 @@ package com.positionbook;
 
 import com.positionbook.model.Position;
 import com.positionbook.model.TradeEvent;
+import com.positionbook.repository.PositionBookRepository;
 import com.positionbook.service.PositionBookService;
 import com.positionbook.websocket.WebSocketHandler;
 import org.junit.jupiter.api.BeforeEach;
@@ -9,6 +10,7 @@ import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import java.util.List;
@@ -21,12 +23,16 @@ class PositionBookServiceTest {
     @Mock
     private WebSocketHandler webSocketHandler;
 
-    @InjectMocks
+    @Autowired
+    private PositionBookRepository positionBookRepository;
+
+    @Autowired
     private PositionBookService positionBookService;
 
     @BeforeEach
     void setUp() {
         MockitoAnnotations.openMocks(this);
+        positionBookService.clearAllPositions();
     }
 
     @Test
