@@ -15,11 +15,12 @@ import java.util.List;
 
 @Service
 public class PositionBookService {
-    private final PositionBookRepository positionBookRepository = new PositionBookRepository();
+    private final PositionBookRepository positionBookRepository;
     private final WebSocketHandler webSocketHandler;
     private static final Logger logger = LoggerFactory.getLogger(PositionBookService.class);
 
-    public PositionBookService(WebSocketHandler webSocketHandler) {
+    public PositionBookService(PositionBookRepository positionBookRepository, WebSocketHandler webSocketHandler) {
+        this.positionBookRepository = positionBookRepository;
         this.webSocketHandler = webSocketHandler;
     }
 

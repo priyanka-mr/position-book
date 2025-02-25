@@ -18,8 +18,13 @@ const PositionTable = () => {
     }
   }
 
+  const isMounted = React.useRef(false)
+
   useEffect(() => {
-    getPositions().then(setPositions)
+    if (isMounted.current === false) {
+      getPositions().then(setPositions)
+    }
+    isMounted.current = true;
   }, [])
 
   const { lastJsonMessage } = useWebSocket(WS_URL, {

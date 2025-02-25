@@ -32,3 +32,187 @@
 2025-02-25 12:45:55 - c.p.c.PositionBookController - Returning 3 positions
 2025-02-25 12:45:55 - c.p.c.PositionBookController - Fetching all positions
 2025-02-25 12:45:55 - c.p.c.PositionBookController - Returning 3 positions
+2025-02-25 13:58:51 - c.p.PositionBookApplication - Starting PositionBookApplication using Java 21 with PID 36452 (/Users/priyankamr/Desktop/JPMC_Assessment/position-book/positionbook/target/classes started by priyankamr in /Users/priyankamr/Desktop/JPMC_Assessment/position-book/positionbook)
+2025-02-25 13:58:51 - c.p.PositionBookApplication - Running with Spring Boot v3.3.9, Spring v6.1.17
+2025-02-25 13:58:51 - c.p.PositionBookApplication - No active profile set, falling back to 1 default profile: "default"
+2025-02-25 13:58:51 - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-25 13:58:51 - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-25 13:58:51 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-02-25 13:58:51 - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-02-25 13:58:51 - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-25 13:58:51 - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-02-25 13:58:51 - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 360 ms
+2025-02-25 13:58:51 - o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-02-25 13:58:51 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-02-25 13:58:51 - c.p.PositionBookApplication - Started PositionBookApplication in 0.69 seconds (process running for 0.847)
+2025-02-25 13:58:57 - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-25 13:58:57 - o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-02-25 13:58:57 - o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-02-25 13:58:57 - c.p.c.PositionBookController - Fetching all positions
+2025-02-25 13:58:57 - c.p.c.PositionBookController - Returning 1 positions
+2025-02-25 13:59:01 - c.p.c.PositionBookController - Request received for processing a trade event
+2025-02-25 13:59:01 - c.p.service.PositionBookService - ACC1 SEC1 Position updated with a BUY event 
+2025-02-25 13:59:01 - c.p.service.PositionBookService - ACC1 SECXYZ Position updated with a BUY event 
+2025-02-25 13:59:01 - c.p.service.PositionBookService - ACC2 SECXYZ Position updated with a BUY event 
+2025-02-25 13:59:01 - c.p.service.PositionBookService - ACC1 SEC1 Position updated with a BUY event 
+2025-02-25 13:59:01 - c.p.c.PositionBookController - Processed 4 trade events
+2025-02-25 13:59:06 - c.p.c.PositionBookController - Fetching all positions
+2025-02-25 13:59:06 - c.p.c.PositionBookController - Returning 1 positions
+2025-02-25 14:00:25 - c.p.PositionBookApplication - Starting PositionBookApplication using Java 21 with PID 36583 (/Users/priyankamr/Desktop/JPMC_Assessment/position-book/positionbook/target/classes started by priyankamr in /Users/priyankamr/Desktop/JPMC_Assessment/position-book/positionbook)
+2025-02-25 14:00:25 - c.p.PositionBookApplication - Running with Spring Boot v3.3.9, Spring v6.1.17
+2025-02-25 14:00:25 - c.p.PositionBookApplication - No active profile set, falling back to 1 default profile: "default"
+2025-02-25 14:00:25 - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-25 14:00:25 - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-25 14:00:26 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-02-25 14:00:26 - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-02-25 14:00:26 - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-25 14:00:26 - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-02-25 14:00:26 - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 339 ms
+2025-02-25 14:00:26 - o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-02-25 14:00:26 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-02-25 14:00:26 - c.p.PositionBookApplication - Started PositionBookApplication in 0.657 seconds (process running for 0.801)
+2025-02-25 14:00:32 - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-25 14:00:32 - o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-02-25 14:00:32 - o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-02-25 14:00:32 - c.p.c.PositionBookController - Request received for processing a trade event
+2025-02-25 14:00:32 - c.p.service.PositionBookService - ACC1 SEC1 Position updated with a BUY event 
+2025-02-25 14:00:32 - c.p.service.PositionBookService - ACC1 SECXYZ Position updated with a BUY event 
+2025-02-25 14:00:32 - c.p.service.PositionBookService - ACC2 SECXYZ Position updated with a BUY event 
+2025-02-25 14:00:32 - c.p.service.PositionBookService - ACC1 SEC1 Position updated with a BUY event 
+2025-02-25 14:00:32 - c.p.c.PositionBookController - Processed 4 trade events
+2025-02-25 14:00:35 - c.p.c.PositionBookController - Fetching all positions
+2025-02-25 14:00:35 - c.p.c.PositionBookController - Returning 3 positions
+2025-02-25 14:05:24 - c.p.PositionBookApplication - Starting PositionBookApplication using Java 21 with PID 36853 (/Users/priyankamr/Desktop/JPMC_Assessment/position-book/positionbook/target/classes started by priyankamr in /Users/priyankamr/Desktop/JPMC_Assessment/position-book/positionbook)
+2025-02-25 14:05:24 - c.p.PositionBookApplication - Running with Spring Boot v3.3.9, Spring v6.1.17
+2025-02-25 14:05:24 - c.p.PositionBookApplication - No active profile set, falling back to 1 default profile: "default"
+2025-02-25 14:05:24 - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-25 14:05:24 - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-25 14:05:24 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-02-25 14:05:24 - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-02-25 14:05:24 - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-25 14:05:24 - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-02-25 14:05:24 - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 364 ms
+2025-02-25 14:05:25 - o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-02-25 14:05:25 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-02-25 14:05:25 - c.p.PositionBookApplication - Started PositionBookApplication in 0.72 seconds (process running for 0.896)
+2025-02-25 14:05:31 - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-25 14:05:31 - o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-02-25 14:05:31 - o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-02-25 14:05:32 - c.p.c.PositionBookController - Fetching all positions
+2025-02-25 14:05:32 - c.p.c.PositionBookController - Returning 0 positions
+2025-02-25 14:05:35 - c.p.c.PositionBookController - Request received for processing a trade event
+2025-02-25 14:05:35 - c.p.service.PositionBookService - ACC1 SEC1 Position updated with a BUY event 
+2025-02-25 14:05:35 - c.p.service.PositionBookService - ACC1 SEC1 Position updated with a BUY event 
+2025-02-25 14:05:35 - c.p.c.PositionBookController - Processed 2 trade events
+2025-02-25 14:05:38 - c.p.c.PositionBookController - Request received for processing a trade event
+2025-02-25 14:05:38 - c.p.service.PositionBookService - ACC1 SEC1 Position updated with a BUY event 
+2025-02-25 14:05:38 - c.p.service.PositionBookService - ACC1 SECXYZ Position updated with a BUY event 
+2025-02-25 14:05:38 - c.p.service.PositionBookService - ACC2 SECXYZ Position updated with a BUY event 
+2025-02-25 14:05:38 - c.p.service.PositionBookService - ACC1 SEC1 Position updated with a BUY event 
+2025-02-25 14:05:38 - c.p.c.PositionBookController - Processed 4 trade events
+2025-02-25 14:05:41 - c.p.c.PositionBookController - Request received for processing a trade event
+2025-02-25 14:05:41 - c.p.service.PositionBookService - ACC1 SEC1 Position updated with a BUY event 
+2025-02-25 14:05:41 - c.p.service.PositionBookService - ACC1 SEC1 Position updated with a SELL event 
+2025-02-25 14:05:41 - c.p.c.PositionBookController - Processed 2 trade events
+2025-02-25 14:05:45 - c.p.c.PositionBookController - Request received for processing a trade event
+2025-02-25 14:05:45 - c.p.service.PositionBookService - ACC1 SEC1 Position updated with a BUY event 
+2025-02-25 14:05:45 - c.p.service.PositionBookService - processing CANCEL event
+2025-02-25 14:05:45 - c.p.service.PositionBookService - ACC1 SEC1 Position updated with a BUY event 
+2025-02-25 14:05:45 - c.p.c.PositionBookController - Processed 3 trade events
+2025-02-25 14:06:04 - c.p.c.PositionBookController - Fetching all positions
+2025-02-25 14:06:04 - c.p.c.PositionBookController - Returning 3 positions
+2025-02-25 14:06:04 - c.p.c.PositionBookController - Fetching all positions
+2025-02-25 14:06:04 - c.p.c.PositionBookController - Returning 3 positions
+2025-02-25 14:12:28 - c.p.PositionBookApplication - Starting PositionBookApplication using Java 21 with PID 37282 (/Users/priyankamr/Desktop/JPMC_Assessment/position-book/positionbook/target/classes started by priyankamr in /Users/priyankamr/Desktop/JPMC_Assessment/position-book/positionbook)
+2025-02-25 14:12:28 - c.p.PositionBookApplication - Running with Spring Boot v3.3.9, Spring v6.1.17
+2025-02-25 14:12:28 - c.p.PositionBookApplication - No active profile set, falling back to 1 default profile: "default"
+2025-02-25 14:12:28 - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-25 14:12:28 - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-25 14:12:29 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-02-25 14:12:29 - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-02-25 14:12:29 - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-25 14:12:29 - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-02-25 14:12:29 - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 378 ms
+2025-02-25 14:12:29 - o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'positionBookController' defined in file [/Users/priyankamr/Desktop/JPMC_Assessment/position-book/positionbook/target/classes/com/positionbook/controller/PositionBookController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'positionBookService' defined in file [/Users/priyankamr/Desktop/JPMC_Assessment/position-book/positionbook/target/classes/com/positionbook/service/PositionBookService.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.positionbook.repository.PositionBookRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2025-02-25 14:12:29 - o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2025-02-25 14:12:29 - o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-02-25 14:12:29 - o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.positionbook.service.PositionBookService required a bean of type 'com.positionbook.repository.PositionBookRepository' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.positionbook.repository.PositionBookRepository' in your configuration.
+
+2025-02-25 14:13:24 - c.p.PositionBookApplication - Starting PositionBookApplication using Java 21 with PID 37375 (/Users/priyankamr/Desktop/JPMC_Assessment/position-book/positionbook/target/classes started by priyankamr in /Users/priyankamr/Desktop/JPMC_Assessment/position-book/positionbook)
+2025-02-25 14:13:24 - c.p.PositionBookApplication - Running with Spring Boot v3.3.9, Spring v6.1.17
+2025-02-25 14:13:24 - c.p.PositionBookApplication - No active profile set, falling back to 1 default profile: "default"
+2025-02-25 14:13:24 - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-25 14:13:24 - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-25 14:13:24 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-02-25 14:13:24 - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-02-25 14:13:24 - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-25 14:13:24 - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-02-25 14:13:24 - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 340 ms
+2025-02-25 14:13:24 - o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-02-25 14:13:24 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-02-25 14:13:24 - c.p.PositionBookApplication - Started PositionBookApplication in 0.658 seconds (process running for 0.796)
+2025-02-25 14:13:35 - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-25 14:13:35 - o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-02-25 14:13:35 - o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2025-02-25 14:13:35 - c.p.c.PositionBookController - Fetching all positions
+2025-02-25 14:13:35 - c.p.c.PositionBookController - Returning 0 positions
+2025-02-25 14:13:38 - c.p.c.PositionBookController - Request received for processing a trade event
+2025-02-25 14:13:38 - c.p.service.PositionBookService - ACC1 SEC1 Position updated with a BUY event 
+2025-02-25 14:13:38 - c.p.service.PositionBookService - ACC1 SEC1 Position updated with a BUY event 
+2025-02-25 14:13:38 - c.p.c.PositionBookController - Processed 2 trade events
+2025-02-25 14:13:41 - c.p.c.PositionBookController - Request received for processing a trade event
+2025-02-25 14:13:41 - c.p.service.PositionBookService - ACC1 SEC1 Position updated with a BUY event 
+2025-02-25 14:13:41 - c.p.service.PositionBookService - ACC1 SECXYZ Position updated with a BUY event 
+2025-02-25 14:13:41 - c.p.service.PositionBookService - ACC2 SECXYZ Position updated with a BUY event 
+2025-02-25 14:13:41 - c.p.service.PositionBookService - ACC1 SEC1 Position updated with a BUY event 
+2025-02-25 14:13:41 - c.p.c.PositionBookController - Processed 4 trade events
+2025-02-25 14:13:45 - c.p.c.PositionBookController - Request received for processing a trade event
+2025-02-25 14:13:45 - c.p.service.PositionBookService - ACC1 SEC1 Position updated with a BUY event 
+2025-02-25 14:13:45 - c.p.service.PositionBookService - ACC1 SEC1 Position updated with a SELL event 
+2025-02-25 14:13:45 - c.p.c.PositionBookController - Processed 2 trade events
+2025-02-25 14:13:48 - c.p.c.PositionBookController - Request received for processing a trade event
+2025-02-25 14:13:48 - c.p.service.PositionBookService - ACC1 SEC1 Position updated with a BUY event 
+2025-02-25 14:13:48 - c.p.service.PositionBookService - processing CANCEL event
+2025-02-25 14:13:48 - c.p.service.PositionBookService - ACC1 SEC1 Position updated with a BUY event 
+2025-02-25 14:13:48 - c.p.c.PositionBookController - Processed 3 trade events
+2025-02-25 14:33:45 - c.p.PositionBookApplication - Starting PositionBookApplication using Java 21 with PID 38363 (/Users/priyankamr/Desktop/JPMC_Assessment/position-book/positionbook/target/classes started by priyankamr in /Users/priyankamr/Desktop/JPMC_Assessment/position-book/positionbook)
+2025-02-25 14:33:45 - c.p.PositionBookApplication - Running with Spring Boot v3.3.9, Spring v6.1.17
+2025-02-25 14:33:45 - c.p.PositionBookApplication - No active profile set, falling back to 1 default profile: "default"
+2025-02-25 14:33:45 - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-25 14:33:45 - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-25 14:33:46 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-02-25 14:33:46 - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-02-25 14:33:46 - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-25 14:33:46 - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-02-25 14:33:46 - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 372 ms
+2025-02-25 14:33:46 - o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-02-25 14:33:46 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-02-25 14:33:46 - c.p.PositionBookApplication - Started PositionBookApplication in 0.719 seconds (process running for 0.877)
+2025-02-25 14:33:48 - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-25 14:33:48 - o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-02-25 14:33:48 - o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-02-25 14:34:00 - c.p.c.PositionBookController - Fetching all positions
+2025-02-25 14:34:00 - c.p.c.PositionBookController - Returning 0 positions
+2025-02-25 14:34:15 - c.p.c.PositionBookController - Request received for processing a trade event
+2025-02-25 14:34:15 - c.p.service.PositionBookService - 222 445 Position updated with a BUY event 
+2025-02-25 14:34:15 - c.p.c.PositionBookController - Processed 1 trade events
+2025-02-25 14:34:55 - c.p.c.PositionBookController - Request received for processing a trade event
+2025-02-25 14:34:55 - c.p.service.PositionBookService - 56 44t Position updated with a BUY event 
+2025-02-25 14:34:55 - c.p.c.PositionBookController - Processed 1 trade events
+2025-02-25 14:34:58 - c.p.c.PositionBookController - Fetching all positions
+2025-02-25 14:34:58 - c.p.c.PositionBookController - Returning 2 positions
